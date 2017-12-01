@@ -4,12 +4,22 @@ djangocms-column
 A Multi Column Plugin for django CMS.
 
 
+Note about the fork
+-------------------
+
+This is a release of the master branch of djangocms-column_,
+which is compatible with newer versions of Django but not
+published on PyPI.
+
+.. _djangocms-column: https://github.com/divio/djangocms-column
+
+
 Installation
 ------------
 
 This plugin requires `django CMS` 2.4 or higher to be properly installed.
 
-* In your projects virtualenv, run ``pip install djangocms-column``.
+* In your projects virtualenv, run ``pip install djangocms-column-fork``.
 * Add ``'djangocms_column'`` to your ``INSTALLED_APPS`` setting.
 * If using Django 1.6 and South < 1.0.2, add ``'djangocms_column': 'djangocms_column.south_migrations',``
   to ``SOUTH_MIGRATION_MODULES``  (or define ``SOUTH_MIGRATION_MODULES`` if it
