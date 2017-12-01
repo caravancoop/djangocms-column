@@ -25,12 +25,12 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='djangocms-column',
+    name='djangocms-column-fork',
     version=__version__,
     description='Column Plugin for django CMS',
     author='Divio AG',
     author_email='info@divio.ch',
-    url='https://github.com/divio/djangocms-column',
+    url='https://github.com/caravancoop/djangocms-column',
     packages=[
         'djangocms_column',
         'djangocms_column.migrations',
